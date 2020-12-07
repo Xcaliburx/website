@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    background-color: #ffffff;
+    height: 5.2rem;
+}
+
+nav .nav-left a {
+    color: #0D3081;
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+body {
+    background-color: #D9E4DD;
+}
+
+section {
+    width: 550px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+section h1 {
+    text-align: center;
+    color: #0D3081;
+}
+
+section .sign {
+    padding: 2.5em;
+    background-color: #F6F5F5;
+    margin-top: .5em;
+    border-radius: 30px;
+}
+
+section .sign h1 {
+    text-align: left;
+    color: #0D3081;
+}
+
+section .sign .sign-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .sign .sign-header p,
+section .sign .sign-header a {
+    color: #0D3081;
+}
+
+section .sign p {
+    margin: .5em 0;
+}
+
+section .sign p a {
+    text-decoration: none;
+    color: #0c99f0;
+}
+
+section .sign .line {
+    width: 100%;
+    height: 3px;
+    background-color: #0D3081;
+    margin: .8em 0;
+}
+
+section .sign form {
+    color: #0D3081;
+}
+
+section .sign form .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+section .sign .form-login .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section .sign .form-login .input input {
+    width: 100%;
+}
+
+section .sign form .input input {
+    width: 18em;
+    padding: .2em;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+section .sign form .input label {
+    font-size: 20px;
+}
+
+section .sign form .input .pict {
+    width: 18em;
+}
+
+section .sign form .input .pict input {
+    width: 100%;
+}
+
+section .sign form .genders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section .sign form .genders .gender {
+    width: 18em;
+}
+
+section .sign form .genders .gender label {
+    margin-right: .3em;
+}
+
+section .sign form .address {
+    display: flex;
+    flex-direction: column;
+    margin: .5em 0;
+}
+
+section .sign form .address textarea {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: .5em;
+}
+
+section .sign form .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+section .sign form .button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5em;
+}
+
+section .sign form #sign {
+    width: fit-content;
+    padding: .5em .8em;
+    background-color: #D9E4DD;
+    border: 0;
+    border-radius: 15px;
+    color: #0D3081;
+}
+
+section .sign .remember {
+    margin: 1em 0 .5em 0;
+}
+
+section .sign .forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5em 0;
+}
+
+section .sign .forgot a {
+    color: #0c99f0;
+    text-decoration: none;
+}
+
+section .sign #exampleModalLabel {
+    text-align: center;
+    width: 100%;
+}
+
+section .sign #forget {
+    width: fit-content;
+    background-color: #F6F5F5;
+    color: #0D3081;
+    border: 0;
+    font-size: 14px;
+    margin-top: .5em;
+}
+
+section .sign #reset {
+    width: 100%;
+    color: #0D3081;
+    background-color: #D9E4DD;
+    border: 0;
+}
